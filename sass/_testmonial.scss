@@ -1,0 +1,65 @@
+.testmonial{
+    margin-top: 108px;
+    &__heading-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    &__heading{
+        text-align: center;
+        width: 596px;
+    }
+
+    &__content{
+        display: flex;
+        margin-top: 76px;
+        align-items: center;
+        position: relative;
+
+    }
+    &__left{
+        margin-right: 76px;
+    }
+
+    &-right{
+        &__desc{
+            font-weight: 400;
+            color: var(--gray1e);
+            font-size: 23px;
+            line-height: 40px;
+
+        }
+        &__rating{
+            margin-top: 21px 0 66px;
+        }
+        &__auth{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 22px;
+            color: #7d7d7d;
+        }
+        &__star{
+            margin-top: 14px;
+        }
+        &__total{
+            margin-top: 8px;
+            font-size: 18px;
+            line-height: 22px;
+            color: var(--gray1e);
+        }
+        
+    }
+    &__control{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        &__btn{
+            padding: calc(60px / 2);
+            background-color: var(--colorDC);
+            border-radius: 15px;
+            &:hover{
+                background-color: var(--primary-button-color);
+            }
+        }
+}

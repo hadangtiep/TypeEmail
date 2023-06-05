@@ -1,0 +1,109 @@
+.library{
+    margin-top: 186px;
+    &__header{
+        text-align: center;
+    }
+    &__title{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        h5{
+            max-width: 326px;
+            color: var(--gray2);
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+        }
+    }
+    &__category{
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    &__tab{
+        font-weight: 700;
+        padding: 12px 25px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: 0.2s linear;
+        &:hover{
+            background-color: var(--gray1e);
+            h4{
+                background: linear-gradient(93.52deg, #E6FF4B 8.71%, #00BD82 98.16%);
+                color: transparent;
+                background-clip: text;
+                -webkit-background-clip: text;
+                display: inline-block;
+            }
+        }
+    }
+    &__body{
+        margin-top: 86px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__card{
+        display: grid;
+        grid-template-columns: 316px 316px 316px;
+        column-gap: 30px;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        &:hover{
+            background-color: #fff;
+            border-radius: 22px;
+        }
+    }
+    &__image{
+        height: 226px;
+        display: flex;
+        background-color: var(--primary-button-color);
+        justify-content: center;
+        border-radius: 22px;
+        img{
+            object-fit: contain;
+            max-width: 315px;
+
+        }
+    }
+    
+    &-card{
+        &__body{
+            margin: 0 22px;
+            padding-bottom: 25px;
+
+        }
+        &__title{
+           font-size: 17px;
+           line-height: 22px;
+           font-weight: 600;
+           color: var(--primary-button-color);
+           margin-top: 15px;
+
+        }
+        &__content{
+            font-size: 22px;
+            line-height: 32px;
+            font-weight: 600;
+            color: var(--gray1e);
+        }
+    }
+
+    &__btn-wrap{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn{
+        margin-top: 38px;
+        display: flex;
+        align-items: center;
+        a{
+            color: var(--white);
+            padding-right: 10px;
+        }
+    }
+}

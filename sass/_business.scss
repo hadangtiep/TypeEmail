@@ -1,0 +1,44 @@
+.business{
+    margin-top: 130px;
+    background-color: var(--black) ;
+    display: flex;
+    justify-content: space-between;
+    &__left{
+        margin-top: 137px;
+        margin-left: 150px;
+    }
+    &__heading{
+        color: var(--white);
+        max-width: 583px;
+    }
+    &__desc{
+        color: var(--gray1);
+        max-width: 362px;
+        margin-top: 9px;
+        font-weight: 400;
+    }
+    &__btn{
+        display: inline-block;
+        margin-top: 41px;
+    }
+
+    &__right{
+        position: relative;
+
+    }
+    &__icon-out{
+        width: 534px;
+        height: 443px;
+        margin: 59px 92px 68px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon-in{
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+    
+}

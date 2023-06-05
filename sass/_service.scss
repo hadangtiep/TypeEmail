@@ -1,0 +1,39 @@
+.service{
+    margin-top: 176px;
+    &__heading{
+        text-align: center;
+    }
+    &__list{
+        margin-top: 58px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 23px;
+    }
+    &__item{
+        // width: 351px;
+        padding: 42px 36px 62px;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        background-color: transparent;
+
+        &:hover{
+            background-color: #FDF9F1;
+            box-shadow: 0px 16px 250px 10px rgba(155, 155, 155, 0.25);
+
+            .service__item-icon{
+                background-color: var(--primary-button-color);
+                color: var(--white);
+            }
+            
+        }
+        &-icon{
+            margin-bottom: 43px;
+            border-radius: 100rem;
+            display: inline-block;
+            transition: all 0.3s linear;
+        }
+        &-title{
+            margin-bottom: 15px;
+        }
+    }
+}

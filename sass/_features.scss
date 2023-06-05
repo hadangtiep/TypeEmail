@@ -1,0 +1,37 @@
+.features{
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 89px 0 72px 0;
+    position: relative;
+
+    &:after{
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            background: rgba(239, 231, 215, 0.8);
+            width: 35%;
+            height: 100%;
+            z-index: -0.1;
+        }
+    &__left{
+        max-width: 666px;
+        position: relative;
+        z-index: 1;
+    }
+    &__right{
+        max-width: 548px;
+    }
+    &__desc{
+        margin-top: 18px;
+    }
+    &__load{
+        margin-top: 28px;
+    }
+    &__btn{
+        margin-top: 51px;
+        display: inline-block;
+    }
+}

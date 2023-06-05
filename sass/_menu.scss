@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 0 36px;
+    list-style: none;
+    &__link{
+        color: var(--gray1);
+        &:hover{
+            color: var(--white);
+        }
+    }
+    @include maxWidth(1023px) {
+        display: none;
+    }
+}
